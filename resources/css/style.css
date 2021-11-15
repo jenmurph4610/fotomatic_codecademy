@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-  font-family: "Roboto-Regular", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
@@ -117,6 +117,9 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url('../images/banner-landingpage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -124,6 +127,9 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-top: 170px;
+  margin-bottom: 170px;
+  margin-left: 100px;
 }
 
 #sign-up-cta .content {
@@ -137,10 +143,12 @@ header .mobile {
 
 #sign-up-cta h1 {
   font-size: 3.125rem;
+  padding-bottom: 12px;
 }
 
 #sign-up-cta h2 {
   font-size: 2.25rem;
+  padding-top: 32px;
 }
 
 #sign-up-cta span strong {
@@ -154,11 +162,14 @@ header .mobile {
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
+  font-size: 50px;
+  line-height: 1.4;
 }
 
 #sign-up-cta .button {
-  margin-top: 1.625rem;
+  margin-top: 26px;
   padding: 1.25rem 7.25rem;
+  margin-bottom: 56px;
 }
 
 @media only screen and (max-width: 760px) {
